@@ -1,0 +1,1 @@
+web: gunicorn tast_proj.wsgi
