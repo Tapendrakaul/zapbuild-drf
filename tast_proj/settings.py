@@ -91,23 +91,11 @@ WSGI_APPLICATION = 'tast_proj.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'daakr5k7ief30r',                      
-        'USER': 'ueakofposqbxrz',
-        'PASSWORD': 'd1d821141facbdaaf7a439d8421848f19a2b9e5eccec871d38385655f5715340',
-        'HOST': 'ec2-52-4-87-74.compute-1.amazonaws.com',
-        'PORT': '5432',
-    }
+ DATABASES = {
+     'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': BASE_DIR / 'db.sqlite3',
+     }
 }
 
 # Password validation
